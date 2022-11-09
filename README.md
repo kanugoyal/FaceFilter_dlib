@@ -12,11 +12,12 @@ To apply our facial landmarks detector to the face region we loop over the face 
 dlib.shape_predictor() is a tool that takes in an image region containing some object and outputs a set of point locations that define the pose of the object. Here we use the shape_predictor_68_face_landmarks.dat model to create the predictor object. 
 
 
-[captain](output/cap.mp4)
-[batman](output/bat.mp4)
-[spiderman](output/spidy.mp4)
-[glasses](output/glasses.mp4)
+![Alt text](output/bat.gif)
+![Alt text](output/cap.gif)
 ![spidy](output/spidy.gif)
+![Alt text](output/glasses.gif)
+![Alt text](output/iron.gif)
+
 **To migrate in the application**
 - run: python Faceapp.py in your shell.
 
