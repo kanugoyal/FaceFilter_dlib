@@ -16,7 +16,7 @@ dlib.shape_predictor() is a tool that takes in an image region containing some o
 [batman](output/bat.mp4)
 [spiderman](output/spidy.mp4)
 [glasses](output/glasses.mp4)
-
+![spidy](output/spidy.gif)
 **To migrate in the application**
 - run: python Faceapp.py in your shell.
 
