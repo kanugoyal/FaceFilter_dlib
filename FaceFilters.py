@@ -63,7 +63,7 @@ class FaceFilters:
             x2 = int(x1 + filterW)
             
         # dog filter
-        elif choice >= 5 and choice <= 6:
+        elif choice == 5:
             filterW = abs(int((shape[16][0] - shape[1][0])*1.5))
             filterH = int((shape[58][1] - shape[20][1])*1.5)
         
@@ -72,6 +72,15 @@ class FaceFilters:
             x1 = int(shape[27][0]- (filterW/2))
             x2 = int(x1 + filterW)
             
+        elif choice == 6:
+            filterW = abs(int((shape[16][0] - shape[1][0])*1.5))
+            filterH = int((shape[9][1] - shape[20][1])*1.8)
+            
+            y2 = int(shape[9][1] + 5)
+            y1 = int(y2 - filterH)
+            x1 = int(shape[27][0]- (filterW/2))
+            x2 = int(x1 + filterW)
+
         # rabbit filter
         elif choice == 7:
             filterW = abs(int((shape[16][0] - shape[1][0])*1.5))
